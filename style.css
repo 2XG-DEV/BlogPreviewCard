@@ -73,6 +73,11 @@ body {
   background: var(--color-yellow, #f4d04e);
 }
 
+.card__content__title:hover {
+  color: var(--color-yellow, #f4d04e);
+  cursor: pointer;
+}
+
 .card__content {
   display: flex;
   flex-direction: column;
